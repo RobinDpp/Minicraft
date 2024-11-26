@@ -7,9 +7,14 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="grid-container" id="grid-container"></div>
-    <div class="player" id="player"></div>
-    <button class="fullscreen-button" id="fullscreen-button">Plein écran</button>
+    <div id="menu" class="scene active">
+        <img src="imports/fondMenu.webp" alt="image fond d'ecran menu" class="imgFondMenu">
+        <button class="fullscreen-button" id="fullscreen-button">Play</button>
+    </div>
+    <div id="game", class="scene">
+        <div class="grid-container" id="grid-container"></div>
+        <div class="player" id="player"></div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
