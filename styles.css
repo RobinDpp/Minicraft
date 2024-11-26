@@ -36,7 +36,6 @@ body {
     transform: translate(-50%, -50%)
 }
 
-
 .grid-container {
     display: grid;
     grid-template-columns: repeat(11, 50px); /* 11 colonnes de 50px */

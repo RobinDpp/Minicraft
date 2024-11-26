@@ -43,7 +43,6 @@ function gameFnc(){
     var terrainObject = []
     var lockedTerrainColors = []
 
-
     function genTerrain(){
         for (let i = 0; i < rows * cols; i++) {
             randomColor = Math.floor(Math.random() * 4);
